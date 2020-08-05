@@ -73,7 +73,7 @@ body {
             }
       }
       .sec2 {
-          margin-top: 120px;
+          margin-top: 50px;
 
           img {
               height: 700px;
@@ -157,7 +157,7 @@ body {
 
     ////// SHAPES ////////
 
-     .circle {
+     .circle1 {
         height: 100px;
         width: 100px;
         background-color: #1f4068;
@@ -167,5 +167,55 @@ body {
         transform: translateY(350%);
         z-index: 33;
      }
+
+     .square {
+        height: 150px;
+        width: 150px;
+        background-color: #206a5d;
+        position: relative;
+        left: 30%;
+        transform: translateY(-60%);
+     }
       
+     .triangle {
+        width: 0;
+        height: 0;
+        border-left: 60px solid transparent;
+        border-right:60px solid transparent;
+        border-bottom: 100px solid #1f4068;
+        position: relative;
+        left: 51%;
+        transform: translateY(300%);
+        z-index: 50;
+     }
+
+     .circle2 {
+        height: 130px;
+        width: 130px;
+        background-color: #D9A724;
+        border-radius: 50%;
+        position: relative;
+        left: 70%;
+        transform: translateY(585%);
+        z-index: 100;
+     }
+
+     .square2 {
+        height: 150px;
+        width: 150px;
+        background-color: #206a5d;
+        position: relative;
+        left: 55%;
+        transform: translateY(120%);
+     }
+
+     .circle3 {
+        height: 110px;
+        width: 110px;
+        background-color: #D9A724;
+        border-radius: 50%;
+        position: relative;
+        left: 12%;
+        transform: translateY(520%);
+     }
 }
