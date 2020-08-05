@@ -82,7 +82,7 @@ body .sec1 img {
 }
 
 body .sec2 {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 body .sec2 img {
@@ -121,15 +121,15 @@ body .sec3 {
 }
 
 body .sec3 h3 {
-  color: #ebecf1;
-  font-family: Cyrene;
+  color: #D9A724;
+  font-family: 'Roboto';
+  font-weight: 300;
   font-size: 120px;
-  text-shadow: 1px 1px 8px #000;
 }
 
 body .sec4 {
   margin-top: 120px;
-  margin-bottom: 240px;
+  margin-bottom: 500px;
   text-align: center;
 }
 
@@ -145,7 +145,11 @@ body .sec4 p {
 
 body footer {
   width: 100%;
-  padding: 40px 0 40px 0;
+}
+
+body footer img {
+  width: 100%;
+  position: absolute;
 }
 
 body footer nav {
@@ -163,7 +167,10 @@ body footer nav a {
   text-decoration: none;
   font-family: 'Roboto';
   color: #000;
-  font-size: 18px;
+  font-size: 48px;
+  z-index: 77;
+  color: #1f4068;
+  margin-top: 150px;
 }
 
 body .circle1 {
