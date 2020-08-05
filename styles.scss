@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Cyrene;
+    src: url(Cyrene+Regular.otf);
+  }
+body {
+    background-color: #ebecf1;
+    line-height: 1.2;
+
+    header {
+        width: 100%;
+        padding: 40px;
+        
+    }
+    h1 {
+        font-family: Cyrene;
+        font-size: 64px;
+    }
+    .icon {
+        font-family: sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        left: 95%;
+        top: 10%;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .menu {
+        background-color: #206a5d;
+        width:  400px;
+        position:  fixed;
+        top: 0;
+        left:  75%;
+        height:  100%;
+        transform: translateX(100%);
+    }
+    .menu-nav {
+        position: absolute;
+        left: 40px;
+        top:  50%;
+        transform: translateY(-50%);
+        
+      }
+      .menu-nav a {
+        font-size: 64px;
+        font-weight:  700;
+      /*  a tags are stacked on top of each other  */
+        display:  block;
+        margin-bottom:  20px;
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        color: #ebecf1;
+        font-weight: 300;
+      }
+      .sec1 {
+        margin-left: 40px;
+        h2 {
+            font-family: Cyrene;
+            font-size: 96px;
+            width: 550px;
+            position: absolute;
+            left: 40%;
+            transform: translateY(-150%);
+        }
+        img {
+          margin-top: 100px;
+          height: 700px;
+          position: relative;
+          left: 15%;
+
+            }
+      }
+      .sec2 {
+          margin-top: 120px;
+
+          img {
+              height: 700px;
+              position: relative;
+              left: 55%;
+          }
+          .sec2-text {
+                position: absolute;
+                left: 35%;
+                transform: translateY(-150%);
+                 h1 {
+                     font-size: 120px;
+                     width: 500px;
+                 }
+             p {
+                font-size: 24px;
+                font-family: 'Roboto';
+                font-weight: 300;
+                width: 280px;
+                margin-top: 20px;
+              }
+          }
+          
+      }
+
+      
+      
+}
