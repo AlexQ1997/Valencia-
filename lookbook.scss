@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Cyrene;
+    src: url(Cyrene+Regular.otf);
+  }
+
+body {
+    background-color: #ebecf1;
+    line-height: 1.2;
+
+    
+    header {
+        width: 100%;
+       
+        
+    }
+    h1 {
+        font-family: Cyrene;
+        font-size: 64px;
+        font-weight: 300;
+        padding-left: 40px;
+    }
+    .icon {
+        font-family: sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        left: 95%;
+        top: 10%;
+        font-family: 'Roboto', sans-serif;
+        z-index: 100;
+
+    }
+
+    .menu {
+        background-color: #206a5d;
+        width:  400px;
+        position:  fixed;
+        top: 0;
+        left:  75%;
+        height:  100%;
+        transform: translateX(100%);
+    }
+    .menu-nav {
+        position: absolute;
+        left: 40px;
+        top:  50%;
+        transform: translateY(-50%);
+        
+      }
+      .menu-nav a {
+        font-size: 64px;
+        font-weight:  700;
+      /*  a tags are stacked on top of each other  */
+        display:  block;
+        margin-bottom:  20px;
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        color: #ebecf1;
+        font-weight: 300;
+        text-decoration: none;
+      }
+
+      .container {
+          margin-top: 100px;
+      }
+}
